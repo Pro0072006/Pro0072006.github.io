@@ -55,7 +55,7 @@ section#home {
 }
 
 section#home img {
-  width: 700px;
+  width: 44rem;
   height: auto;
 }
 
@@ -75,7 +75,7 @@ section#contact {
 }
 
 .text {
-  max-width: 800px;
+  max-width: 50rem;
   margin: 0 auto;
 }
 
@@ -94,8 +94,8 @@ section#projects .project {
 }
 
 section#projects .project img.project-logo {
-  width: 60px;
-  height: 60px;
+  width: 3.7rem;
+  height: 3.7rem;
   display: block;
   border-radius: 5px;
 }
@@ -134,8 +134,8 @@ section#contact .social-links {
 }
 
 section#contact .social-links a img {
-  width: 32px;
-  height: 32px;
+  width: 2rem;
+  height: 2rem;
   margin-right: 0.5rem;
 }
 
