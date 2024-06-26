@@ -162,6 +162,7 @@ footer nav ul li a {
   text-decoration: none;
 }
 
+/* Dark mode */
 body.dark-theme {
   background-color: #121212;
   color: #ffffff;
@@ -179,8 +180,16 @@ body.dark-theme .btn {
   background-color: #1e88e5;
 }
 
+body.dark-theme section#about {
+  background-color: #121212;
+}
+
 body.dark-theme section#projects .project {
   background-color: #1f1f1f;
+}
+
+body.dark-theme section#contact {
+  background-color: #121212;
 }
 
 body.dark-theme footer {
