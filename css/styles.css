@@ -134,8 +134,8 @@ section#contact .social-links {
 }
 
 section#contact .social-links a img {
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
   margin-right: 0.5rem;
 }
 
@@ -185,4 +185,40 @@ body.dark-theme section#projects .project {
 
 body.dark-theme footer {
   background-color: #1f1f1f;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: inherit;
+    align-items: center;
+  }
+
+  header nav ul {
+    display: inline-flexbox;
+  }
+
+  header nav ul li {
+    margin-left: 0.5rem;
+  }
+
+  section {
+    padding: 1rem;
+  }
+
+  section#home img {
+    width: 100%;
+  }
+
+  .text {
+    max-width: 90%;
+  }
+
+  section#projects .projects {
+    grid-template-columns: 1fr;
+  }
+
+  section#contact .social-links a img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 }
