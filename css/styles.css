@@ -192,6 +192,10 @@ body.dark-theme section#contact {
   background-color: #121212;
 }
 
+body.dark-theme section#contact .text .contact-info a {
+  color: orange;
+}
+
 body.dark-theme footer {
   background-color: #1f1f1f;
 }
